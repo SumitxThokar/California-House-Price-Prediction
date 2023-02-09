@@ -1,4 +1,4 @@
-<p align="center"> # **California-House-Price-Prediction** </p>
+<h1 style="font-size:200" align="center"> <b>California-House-Price-Prediction</b> </h1>
 
 
 <img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/imggg.jpg">
@@ -8,28 +8,27 @@ Jupyter notebook version of the Project: [Click Here](https://github.com/SumitxT
 
 Python code Version of the Project: [Click Here](https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/File/ML_01_California_house_pred.py)
 
+## Project Description
 
 This dataset is frequently utilized in a well-regarded book on machine learning, written by Aurélien Géron. It is a great starting point for individuals looking to dive into the field as it requires minimal data preprocessing, features a straightforward set of variables, and strikes the ideal balance between simplicity and complexity.
 The data presents information gathered from a census conducted in California in the year 1990. While it may not be applicable for forecasting current real estate values like other datasets such as Zillow Zestimate, it provides a user-friendly introduction to the fundamentals of machine learning.
-### Get the Data.
-**Download the Data**
-<br>
+### Data Import
 To download and extract the housing data in a CSV file, you can either use your web browser and run a command or create a function to automate the process. This is helpful if the data changes frequently or needs to be installed on multiple machines.
 
 
-<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/fetch.jpg">
+<img align="center" src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/fetch.jpg">
 
 ### Data Exploration.
 Let's take a quick look at the dataframe using **head()** method. The head() method is used to display the first n rows of a pandas DataFrame, where n is an optional parameter. By default, head() returns the first five rows of the DataFrame. This method is often used to quickly inspect the first few rows of a DataFrame to get a feel for the data, or to make sure that the data has been loaded correctly.
 
 
-<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/quicklook.jpg">
+<img align="center" src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/quicklook.jpg">
 
 
 The **info()** function is an essential tool for gaining a comprehensive overview of your data. It provides insightful information about the total number of rows in your dataset, as well as the data type and non-null count for each attribute, making it incredibly useful for data exploration.
-
-<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img3.jpg">
-
+<p align="center">
+  <img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img3.jpg">
+</p>
 The **describe()** method is used to generate descriptive statistics of a pandas DataFrame. It provides a summary of the central tendency, dispersion, and shape of the distribution of a set of continuous variables, excluding NaN values.
 
 <img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img5.jpg">
@@ -49,7 +48,9 @@ We split the dataset using **train_test_split** from sklearn.model_selection.
 Now we generate a scatter plot of the "median_house_value" based on "longitude" and "latitude" in the "housing" dataset. The size of each dot on the plot represents the population of the area divided by 100. The color of each dot represents the "median_house_value" and a color bar is added to help with interpretation. The plot size is set to (10,6) and a legend is added to explain the relationship between size and population.
 
 
-<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img7.jpg">
+<p align="center">
+  <img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img7.jpg">
+</p>
 
 
 ### Correlations
@@ -57,8 +58,9 @@ Now we generate a scatter plot of the "median_house_value" based on "longitude" 
 corr() method is used to find correlation between Features. To plot the relations we can use Pandas' scatter_matrix function, which plots every numerical attrubute against every other attribute.
 
 
-<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img8.jpg">
-
+<p align="center">
+  <img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img8.jpg">
+</p>
 
 ### Data Preparation.
 **Data cleaning** involves preprocessing the data to make it suitable for use in machine learning algorithms. One common step in data cleaning is handling text and categorical attributes, which can be done using one-hot encoding. This technique converts categorical variables into numerical variables, allowing them to be used in algorithms that require numerical inputs.
