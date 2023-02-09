@@ -63,3 +63,7 @@ In the first step, the team used linear regression to train the model and predic
 Next, they tried using DecisionTreeRegressor() which resulted in worse performance compared to linear regression. Finally, they used RandomForestRegressor() and got much better results. Random Forest appeared to be a promising method, but there was a high risk of overfitting, so the team decided to regularize it.
 
 To avoid overfitting and improve the performance of the model, the team used GridSearchCV to fine-tune their model. This allowed them to optimize the parameters and improve the accuracy of the model.
+
+
+Jupyter notebook version of the Project: [Click Here](https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/File/ML_01_California_house_pred.ipynb)
+Python code Version of the Project: [Click Here](https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/File/ML_01_California_house_pred.py)
