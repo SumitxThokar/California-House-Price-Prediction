@@ -1,4 +1,4 @@
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# California-House-Price-Prediction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p align="center"> # **California-House-Price-Prediction** </p>
 
 
 <img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/imggg.jpg">
