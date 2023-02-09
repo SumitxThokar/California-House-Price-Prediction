@@ -7,9 +7,9 @@ The data presents information gathered from a census conducted in California in 
 To download and extract the housing data in a CSV file, you can either use your web browser and run a command or create a function to automate the process. This is helpful if the data changes frequently or needs to be installed on multiple machines.
 
 
-<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/fetch.jpg" width="500">
+<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/fetch.jpg">
 
 ### Data Exploration.
 The **info()** function is an essential tool for gaining a comprehensive overview of your data. It provides insightful information about the total number of rows in your dataset, as well as the data type and non-null count for each attribute, making it incredibly useful for data exploration.
 
-<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/quicklook.jpg" width="500">
+<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/quicklook.jpg">
