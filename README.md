@@ -66,4 +66,6 @@ To avoid overfitting and improve the performance of the model, the team used Gri
 
 
 Jupyter notebook version of the Project: [Click Here](https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/File/ML_01_California_house_pred.ipynb)
+
+
 Python code Version of the Project: [Click Here](https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/File/ML_01_California_house_pred.py)
