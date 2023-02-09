@@ -28,3 +28,38 @@ Now that we know how the data looks like. Let's visualize the summary of the dat
 This is how it looks: <br>
 
 <img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img6.jpg">
+
+### Test-Train Set.
+Creating a test and train set is important in machine learning to evaluate the performance of a model on previously unseen data. The idea is to split the data into two parts, one part is used to train the model and the other part is used to test the model. The model is trained on the training set and its performance is evaluated on the test set. This helps in avoiding overfitting, which is when a model performs well on the training set but poorly on new, unseen data. By evaluating the model on the test set, one can get a better estimate of its performance in real-world scenarios.
+<br>
+We split the dataset using **train_test_split** from sklearn.model_selection.
+
+
+### Data Visualization.
+Now we generate a scatter plot of the "median_house_value" based on "longitude" and "latitude" in the "housing" dataset. The size of each dot on the plot represents the population of the area divided by 100. The color of each dot represents the "median_house_value" and a color bar is added to help with interpretation. The plot size is set to (10,6) and a legend is added to explain the relationship between size and population.
+
+
+<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img7.jpg">
+
+
+### Correlations
+
+corr() method is used to find correlation between Features. To plot the relations we can use Pandas' scatter_matrix function, which plots every numerical attrubute against every other attribute.
+
+
+<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img7.jpg">
+
+
+### Data Preparation.
+**Data cleaning** involves preprocessing the data to make it suitable for use in machine learning algorithms. One common step in data cleaning is handling text and categorical attributes, which can be done using one-hot encoding. This technique converts categorical variables into numerical variables, allowing them to be used in algorithms that require numerical inputs.
+<br>
+Another step in data cleaning is **feature scaling**, which involves transforming the features to have a similar scale. There are two common techniques for feature scaling: min-max scaling and standardization. Min-max scaling scales the features to a specified range, while standardization transforms the features to have a mean of 0 and a standard deviation of 1.
+<br>
+**Transformation pipelines** are a convenient way to apply a sequence of transformations to the data in a consistent manner. The transformations can include data cleaning steps such as one-hot encoding, feature scaling, and others. The pipelines ensure that the same transformations are applied to both the training and test sets, making it easier to build and evaluate models.
+
+### Train and Evaluate on the training set.
+In the first step, the team used linear regression to train the model and predict using the test data. The accuracy of the model was measured and it was found that the model was underfitting.
+
+Next, they tried using DecisionTreeRegressor() which resulted in worse performance compared to linear regression. Finally, they used RandomForestRegressor() and got much better results. Random Forest appeared to be a promising method, but there was a high risk of overfitting, so the team decided to regularize it.
+
+To avoid overfitting and improve the performance of the model, the team used GridSearchCV to fine-tune their model. This allowed them to optimize the parameters and improve the accuracy of the model.
