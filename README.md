@@ -47,7 +47,7 @@ Now we generate a scatter plot of the "median_house_value" based on "longitude" 
 corr() method is used to find correlation between Features. To plot the relations we can use Pandas' scatter_matrix function, which plots every numerical attrubute against every other attribute.
 
 
-<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img7.jpg">
+<img src="https://github.com/SumitxThokar/California-House-Price-Prediction/blob/main/img/img8.jpg">
 
 
 ### Data Preparation.
